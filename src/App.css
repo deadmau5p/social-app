@@ -1,0 +1,542 @@
+.form {
+    width: 300px;
+    margin: 0 auto;
+    font-family: Tahoma, Geneva, sans-serif;
+}
+
+html, body, #root, #root>div {
+    height: 100%
+  }
+.form h1 {
+    text-align: center;
+    color: #4d4d4d;
+    font-size: 24px;
+    padding: 20px 0 20px 0;
+}
+.form input[type="password"],
+.form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #dddddd;
+    margin-bottom: 15px;
+    box-sizing:border-box;
+}
+.form button[type="submit"], .form button[type="button"]  {
+    width: 100%;
+    padding: 15px;
+    background-color: #535b63;
+    border: 0;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.form p{
+    text-align: center;
+    font-size: x-large;
+}
+
+log-message {
+    display: inline;
+    justify-content: space-between;
+}
+
+
+.navv ul
+{
+  
+  list-style-type: none;
+  margin: 0;
+  padding:0;
+  overflow: hidden;
+  background-color: #87CEEB;
+}
+
+.navv li
+{
+    float: left;
+}
+
+.navv a
+{
+  display: block;
+  color: rgb(253, 253, 253);
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#logout
+{
+    float: right;
+}
+
+
+li a:hover:not(.active) {
+    background-color: rgb(70, 167, 142);
+  }
+  
+
+.front
+{
+    position: relative;
+    margin-top:30px ;
+    height: 100%;
+}
+
+.bio {
+    position: absolute;
+    left: 5%;
+    width: 25%;
+    height: 60%;
+    background-color: white;
+    border-radius: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    
+}
+
+.bio h2
+{
+    font-size: larger;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+    
+
+}
+.text
+{
+    
+    margin-top: 20px;
+    height: 10%;
+    text-align: center;
+    width:100%
+}
+
+.profile-pic
+{
+    
+    border-radius: 40px;
+    height: 50%;
+    
+    width: 100%;
+    
+
+}
+
+.feed {
+    position: absolute;
+    left: 35%;
+    border-left: solid 2px #d8d8d8;
+    width:40%;
+    height: fit-content;
+    display: block;
+    
+    
+   
+}
+
+.footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #4d4d4d;
+    
+    padding :5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-top: 1px solid #4d4d4d;
+    border-radius: 5px;
+    font-size: small;
+    
+    
+}
+
+.post-box
+{
+    
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 20px;
+    width:80%;
+    border-radius: 15px;
+    background-color: white;
+    height: 120px;
+    
+
+}
+
+.post-box #today
+{
+    font-size: small;
+    width: 100%;
+    max-width: 400px;
+    border: solid #f0f0f0 2px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    height: 40px;
+    padding: 5px;
+}
+
+
+.post-box button 
+{
+    margin-top: 10px;
+    font-size: small;
+    border-radius: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    
+}
+
+.post_list
+{
+    margin-top: 35px;
+    margin-left:15px ;
+    width: 80%;
+    height: 100%;
+    
+}
+
+.post_item
+{
+    
+    
+    display: block;
+    
+    
+    border-radius: 15px 15px 0px 0px;
+    margin-bottom: 40px;
+    height: fit-content;
+    width: 100%;
+    position: relative;
+    
+    
+}
+.post-v
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: 1px solid white;
+    border-radius: 15px 15px 5px 5px;
+    background-color: white;
+    height: fit-content;
+    padding-bottom: 5px;
+}
+
+.post_item #content
+{
+    
+    padding-left: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+    margin-bottom: 2px;
+    height: fit-content;
+}
+
+.post_item #usern
+{
+    margin-bottom: 4px;
+    padding-left: 15px;
+    font-size: smaller;
+    font-style: italic;
+    border:1px solid #87CEEB;
+    background-color: aliceblue;
+    border-radius: 15px 15px 0px 0px;
+}
+.post-pic
+{
+    width: 100%;
+    height: 250px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+.like
+{
+    background-color: white;
+    border-color:solid black 1px;
+    border-radius: 15px;
+    
+    margin-right: 4px;
+    font-size: small;
+    outline: none;
+    
+    position: relative;
+    bottom:0px;
+    left: 60%;
+}
+.num-lik
+{
+    font-size: smaller;
+    font-style: italic;
+    position: relative;
+    right: 20px;
+    bottom: 0px;
+    background-color: #e1f6ff;
+    border: #87CEEB 1px solid;
+    border-radius:  15px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.likes
+{
+    display: inline-block;
+    padding:5px;
+    height: 40px;
+    width: 70%;
+}
+
+.file-btn
+{
+    background-color:white;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 30%;
+    position: absolute;
+    border-color: #4d4d4d;
+    border: solid 2px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.file-btn-i
+{
+    margin-right: 5px;
+}
+*:focus {
+    outline: 0 !important;
+}
+
+.btn-to-profile
+{
+    background-color: white;
+    border-radius: 15px;
+    
+    
+}
+
+.prof-page
+{
+    margin:7%;
+    text-align: center;
+}
+
+.prof-page #prof-img
+{
+    margin :20px;
+    width: 300px;
+    height: 300px;
+    border: #4d4d4d 1px solid;
+    padding: 5px;
+    
+}
+.prof-list
+{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+    
+    
+}
+
+.link-p
+{
+    text-decoration: none;
+    color: #4d4d4d;
+    
+}
+.link-p:hover
+{
+    text-decoration: none;
+    
+    color: #4d4d4d;
+}
+.mes-box
+{
+    
+    height: 100%;
+    border: 2px solid #87CEEB;
+    border-radius: 5px 5px 0px 0px;
+    text-align: center;
+    vertical-align: auto;
+}
+.mes-win
+{
+    height: 220px;
+    padding-top: 15px;
+    border-radius: 7px;
+    background-color: white;
+    border-top:1px solid #4d4d4d;
+    border-bottom:1px solid #4d4d4d;
+    display: block;
+    overflow: scroll;
+    
+    
+}
+
+.mes-con
+{
+    position: fixed;
+    
+    right: 5%;
+    width: 230px;
+    height: 300px;
+   
+}
+.mes-box p
+{
+    font-size: small;
+    margin-bottom: 5px;
+    text-decoration: solid;
+    font-weight: 600;
+    
+}
+.mes-in
+{
+    height: 45px;
+}
+.mes-in textarea:active, .mes-in textarea:focus, .mes-in textarea:hover{
+	border-color: royalblue;
+}
+.mes-in textarea
+{
+    height: 35px;
+	box-sizing: border-box;
+	border: 1px solid #bdc3c7;
+    margin-top: 5px;
+    float: left;
+    width: 70%;
+    resize: none;
+    font-size: x-small;
+}    
+#mes-btn
+{
+    font-size: small;
+    width: 18%;
+    border: none;
+    border:1px solid #87CEEB;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 10px;
+}
+
+.message
+{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    border-radius: 5px;
+
+}
+
+
+.dropbtn {
+    background-color: #afdbf8;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+.chat-btn
+{
+    width:150px;
+    background-color: #87CEEB;
+    border: 1px solid #2980B9;
+    border-radius: 15px;
+}
+  .dropup {
+    position: fixed; 
+     bottom: 0;
+     right: 5%;
+    display: inline-block;
+  }
+  
+  .dropup-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    
+    bottom: 50px;
+    z-index: 1;
+  }
+  
+  
+  
+  
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  .dropup:hover .dropbtn {
+    background-color: #2980B9;
+  }
+
+  .chat-btn:active .mes-con
+  {
+      display: block;
+  }
+
+  .blue
+  {
+      background-color: #c9e8fd;
+      color: white;
+      margin-left: 15px;
+  }
+
+  .green
+  {
+      background-color: white;
+      color: black;
+      border: 1px black solid;
+      margin-right: 15px;
+  }
+  .com-contain
+  {
+     
+  }
+  .com-a 
+  {
+      margin-bottom: 2px;
+      padding: 4px;
+  }
+
+  .comment
+  {
+      margin-bottom: 5px;
+      font-size: small;
+      font-style: italic;
+      background-color: white;
+      border: #87CEEB 2px solid;
+      width: 60%;
+      height: fit-content;
+      border-radius: 5px 5px 0px 0px;
+  }
+  .com-btn
+  {
+      background-color: whitesmoke;
+      border-radius: 0px 0px 30px 30px;
+      font-size: smaller;
+      height: 20px;
+      width: 20px;
+      padding-bottom: 5px;
+      margin: auto;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      text-align: center;
+      display: block;
+      border: 2px solid #2980B9;
+  }
+
+  .plus
+  {
+       height: 5px;
+       
+  }
